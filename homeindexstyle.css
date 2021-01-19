@@ -92,6 +92,11 @@
         padding: 1px;
     }
 
+    body h2 {
+        color:        color: rgb(228, 125, 7);
+        ;
+    }
+
     #projImg {
         max-width: 300px;
         background-color: white;
