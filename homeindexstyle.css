@@ -64,6 +64,7 @@
         flex-direction: column;
         background-color: black;
         color: white;
+        height: 55rem;
     }
 
     h1 {
@@ -78,9 +79,9 @@
 
     #projImg {
         max-width: 300px;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 1em;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin: 1em;
     }
 
     #projects {
@@ -104,10 +105,10 @@
     }
     footer ul{
         display: flex;
-  flex-direction: row;
-  justify-content:center;
-  align-content:center;
-  list-style-type: none;
+        flex-direction: row;
+        justify-content:center;
+        align-content:center;
+        list-style-type: none;
     }
 
     footer ul li {
