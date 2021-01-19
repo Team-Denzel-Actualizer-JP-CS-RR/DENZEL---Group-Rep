@@ -71,6 +71,7 @@
     #button {
         display: flex;
         align-content: center;
+        justify-content: center;
     }
     #heady {
         display: flex;
@@ -90,6 +91,11 @@
     h2 {
         font-size: 3em;
         padding: 1px;
+    }
+
+    body h2 {
+        color: rgb(228, 125, 7);
+        ;
     }
 
     #projImg {
