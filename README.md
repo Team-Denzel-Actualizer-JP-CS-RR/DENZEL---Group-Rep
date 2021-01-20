@@ -10,6 +10,6 @@ Link to Miro Page:
   https://miro.com/app/board/o9J_lYU88iM=/
 
   Link to Figma Page:
-    
+    https://www.figma.com/file/dD54VGs7nerx3NwYuanW9p/Atlantis-Group?node-id=0%3A1
 
 update v.1 01-19-20
