@@ -3,3 +3,7 @@ $(".hover").mouseleave(
       $(this).removeClass("hover");
     }
   );
+
+  console.clear();
+
+var s = Splitting();
