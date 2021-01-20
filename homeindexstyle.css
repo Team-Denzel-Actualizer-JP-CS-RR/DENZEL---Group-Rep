@@ -13,7 +13,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
 
     * {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: 'Raleway', Arial, sans-serif;
     }
 
     #top {
@@ -32,10 +32,11 @@
         position: sticky;
         top: 0;
     }
+
 /* button */
 
 .btn {
-  color: rgb(230, 221, 221);
+  color: rgb(8, 8, 8);
   cursor: pointer;
   display: flex;
   flex-direction: column;
@@ -62,7 +63,7 @@ letter-spacing: 5px;
 .btn-2:after,
 .btn-2:before {
 backface-visibility: hidden;
-border: 1px solid rgba(#fff, 0);
+border: 1px solid rgba(rgb(7, 7, 7), 0);
 bottom: 0px;
 content: " ";
 display: flex;
@@ -75,7 +76,7 @@ width: 0;
 .btn-2:hover:after,
 .btn-2:hover:before {
 backface-visibility: hidden;
-border-color: #fff;
+border-color: rgb(8, 8, 8);
 transition: width 350ms ease-in-out;
 width: 110%;
 }
@@ -125,8 +126,6 @@ width: 110%;
         display: flex;
         justify-content: center;
         flex-direction: column;
-        background-color: black;
-        color: white;
         height: 55rem;
     }
 
@@ -145,12 +144,21 @@ width: 110%;
       font-style: italic;
     }
 
-  #title{
-    color: black;
-    text-shadow: lightslategray;
-    display: flex;
-    justify-content: center;
-    background-color:  rgb(228, 125, 7);
+ #span1{
+    font-weight: 400;
+    font-size:  3em;
+    font-style: oblique;
+    color: rgb(228, 125, 7);
+ }
+ #span2 {
+   font-weight: 800;
+   font-size: 3em;
+   font-style: oblique;
+   color: rgb(228, 125, 7);
+ }
+
+  hr {
+    width: 70%;
   }
 
     #projImg {
@@ -163,7 +171,7 @@ width: 110%;
     #projects {
         display:flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-content: space-around;
     }
 
@@ -179,10 +187,6 @@ width: 110%;
         width:35px;
     }
 
-    footer {
-        background-color: rgba(150, 146, 146, 0.383);
-        color:  rgb(228, 125, 7);
-    }
     footer ul{
         display: flex;
         flex-direction: row;
@@ -220,7 +224,10 @@ width: 110%;
         transition: all 0.3s ease-in-out;
       }
       figure.snip1190 img {
+        opacity: 25%;
         width: 100%;
+        -webkit-filter: grayscale(100);
+       filter: grayscale(100);
       }
       figure.snip1190 figcaption {
         bottom: 0;
@@ -310,7 +317,9 @@ figure.snip1190 a {
 }
 figure.snip1190:hover img,
 figure.snip1190.hover img {
-  opacity: 0.25;
+  opacity: .75;
+  -webkit-filter: grayscale(0);
+       filter: grayscale(0);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
