@@ -97,20 +97,9 @@ width: 110%;
         display: flex;
         align-content: center;
         min-width: fit-content;
-        border-radius: 46%;
+        border-radius: 0;
         padding-top: 5em;
-        filter: grayscale(100%);
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
-    }
-
-    
-
-    #denzel:hover{
-        -webkit-filter: grayscale(0);
-       filter: grayscale(0);
+        margin-top: 3em;
     }
 
     .topList {
@@ -127,6 +116,7 @@ width: 110%;
         justify-content: center;
         flex-direction: column;
         height: 55rem;
+        margin: 0 10em 0 10em
     }
 
     h1 {
@@ -159,26 +149,32 @@ width: 110%;
 
   hr {
     width: 70%;
+    margin-top: 0;
+  }
+  div {
+    margin-bottom: 0;
   }
 
     #projImg {
-        max-width: 300px;
+        max-width: 250px;
         background-color: white;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         margin: 1em;
+        border-radius: 80%;
     }
 
     #projects {
         display:flex;
         flex-direction: row;
-        justify-content: space-around;
-        align-content: space-around;
+        justify-content: center;
+        align-content: center;  
+        margin: 0 15em 0 15em;
     }
 
     #projImg:hover {
         box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        -webkit-filter: grayscale(0);
-       filter: grayscale(0);
+        -webkit-filter: grayscale(100);
+       filter: grayscale(100);
     }
 
 
@@ -224,10 +220,10 @@ width: 110%;
         transition: all 0.3s ease-in-out;
       }
       figure.snip1190 img {
-        opacity: 25%;
+        opacity: 75%;
         width: 100%;
-        -webkit-filter: grayscale(100);
-       filter: grayscale(100);
+        -webkit-filter: grayscale(0);
+       filter: grayscale(0);
       }
       figure.snip1190 figcaption {
         bottom: 0;
@@ -318,8 +314,8 @@ figure.snip1190 a {
 figure.snip1190:hover img,
 figure.snip1190.hover img {
   opacity: .75;
-  -webkit-filter: grayscale(0);
-       filter: grayscale(0);
+  -webkit-filter: grayscale(100);
+       filter: grayscale(100);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
