@@ -4,7 +4,7 @@
 }
 
 .topImage {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("Images/placeholder.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("Images/case study hero image.png");
 
  
   height: 30em;
@@ -18,9 +18,6 @@
 
 .topBack {
     background-color: darkslategrey;
-   /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("Images/placeholder.jpg");*/
-
- 
   height: 13em;
 
   /* Position and center the image to scale nicely on all screens */
@@ -46,14 +43,10 @@
 }
 
 .topList {
-    display:flex;
+    display: flex;
     flex-direction: row;
     list-style-type: none;
-    align-content: space-between;
-    justify-content: space-between;
-    flex-wrap: wrap;
 }
-
 
 footer{
     display: flex;
