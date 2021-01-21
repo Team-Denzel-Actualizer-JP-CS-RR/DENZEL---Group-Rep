@@ -1,121 +1,105 @@
-@font-face {
-    font-family: 'Helvetica';
-   src: url('helvetica.eot');
-   src: url('helvetica.eot?iefix') format('eot'),
-    url('helvetica.woff') format('woff'),
-    url('helvetica.ttf') format('truetype'),
-    url('helvetica.svg#helvetica') format('svg');
-   font-weight: normal;
-   font-style: normal;
-    }
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
-    * {
-        font-family: Helvetica, sans-serif;
-    }
+header {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
-    #top {
-        display: flex;
-        flex-direction: row;
-        align-content: center;
-        justify-content: center;
-    }
-
-    #button {
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        align-content: center;
-    }
-
-    button {
-        border: 4 4 solid cornsilk;
-        background-color: rgb(7, 7, 7);
-        max-width: 20em;
-        min-width: 10em;
-        border-radius: 10%;
-        color: gainsboro;
-    }
-
-    button:hover {
-            box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            background-color:rgba(0, 0, 0, 0.19);
-    }
-
-    #denzel {
-        display: flex;
-        align-content: center;
-        min-width: fit-content;
-        border-radius: 47%;
-        padding-top: 5em;
-        filter: grayscale(100%);
-    }
-
-    .topList {
-        list-style-type: none;
-    }
-
-    #button {
-        display: flex;
-        align-content: center;
-    }
-    #heady {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        background-color: black;
-        color: white;
-    }
-
-    h1 {
-        font-size: 5em;
-        padding: 1px;
-    }
-
-    h2 {
-        font-size: 3em;
-        padding: 1px;
-    }
-
-    #projImg {
-        max-width: 300px;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 1em;
-    }
-
-    #projects {
-        display:flex;
-        flex-direction: row;
-        justify-content:space-around;
-        align-content: space-around;
-    }
-
-    #projImg:hover {
-        box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
-    }
-
-    #footimg {
-        padding: 1.2em;
-        width:35px;
-    }
-
-    footer ul{
-        display: flex;
-  flex-direction: row;
-  justify-content:center;
-  align-content:center;
+header ul li{
   list-style-type: none;
-    }
+}
 
-    footer ul li {
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: space-around;
-        text-align: center;
-        font-weight: bold;
-    }
+header h1 {
+  font-size: xx-large;
+}
 
-    footer ul li:hover {
-            box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
-    }
+header h3 {
+  font-style: oblique;
+  font-size: x-large;
+}
+
+#button {
+  border: 2px solid black;
+  text-align: center;
+  background-color: rgb(5, 5, 5);
+  box-shadow: 2px 2px #888888;
+  cursor:pointer;
+  color: white;
+}
+
+container {
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.indi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2em;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.indi img {
+  border-radius: 10%;
+}
+
+.indi span {
+  text-align: center;
+  height: 4em;
+}
+
+#title {
+  display:flex;
+  margin-left: 5em;
+  flex-wrap: wrap;
+}
+
+#titlefirst {
+  font-size: xx-large;
+  font-weight: 350;
+}
+#titlesecond {
+  font-size: xx-large;
+  font-weight: 800;
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+footer ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+li img {
+  width:10%;
+}
