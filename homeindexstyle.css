@@ -28,8 +28,13 @@ header h3 {
   box-shadow: 2px 2px #888888;
   cursor:pointer;
   color: white;
+  text-decoration: none;
 }
 
+.spacer{ 
+  margin-top: 3em;
+  color: white;
+}
 container {
   display:flex;
   flex-direction: column;
@@ -56,10 +61,11 @@ container {
   overflow: hidden;
   width: 30em;
   height: 30em;
+  background-color: #88888862;
 }
 
 .indi img {
-  border-radius: 10%;
+  border-radius:0;
   overflow: hidden;
 }
 
@@ -97,11 +103,11 @@ footer ul {
 }
 
 footer ul li {
-display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  flex-wrap: wrap;  
+  flex-wrap: wrap; 
 }
 
 li img {
