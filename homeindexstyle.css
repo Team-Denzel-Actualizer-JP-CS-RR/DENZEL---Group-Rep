@@ -12,8 +12,13 @@ header ul li{
   list-style-type: none;
 }
 
+header h1 {
+  font-size: xx-large;
+}
+
 header h3 {
   font-style: oblique;
+  font-size: x-large;
 }
 
 #button {
@@ -30,6 +35,8 @@ container {
   flex-direction: column;
   flex-wrap: wrap;
 }
+
+
 
 .projects {
   display: flex;
@@ -54,7 +61,7 @@ container {
 
 .indi span {
   text-align: center;
-  height: 3em;
+  height: 4em;
 }
 
 #title {
@@ -64,11 +71,11 @@ container {
 }
 
 #titlefirst {
-  font-size: x-large;
+  font-size: xx-large;
   font-weight: 350;
 }
 #titlesecond {
-  font-size: x-large;
+  font-size: xx-large;
   font-weight: 800;
 }
 
@@ -95,5 +102,4 @@ footer ul li {
 
 li img {
   width:10%;
-  
 }
