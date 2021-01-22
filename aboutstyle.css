@@ -2,20 +2,12 @@ body, html {
     height: 100%;
     background-color: #f4f4f4;
 }
-/* header {
-  display:flex;
-  flex-direction:column;
-} */
 
-/* .Denzel {
-  background-image: url("Images/Denzel.jpg");
-  height: 59%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.denzelHeader img {
+  height: 100%;
   position: relative;
   border-radius: 40px;
-} */
+}
 
 
 .TextBox {
@@ -23,7 +15,7 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  border-radius: 40px;
+  border-radius: 0px;
 }
 
 .DenzelText {
@@ -35,7 +27,21 @@ body, html {
   color: black;
 }
 
+.TextBox {
+  background-color: #414040;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  top: -1%;
+  color: #f4f4f4;
+}
+
 .ask {
+  text-align: left;
+}
+
+.askmeabout {
   text-align: left;
 }
 
@@ -44,13 +50,17 @@ body, html {
 }
 
 .paired {
-  text-align: center;
+  text-align: row;
 }
 
 .hobbies {
-  text-align: right;
-  ;
+  text-align: left;
 }
+
+.hobbiesdetail {
+  text-align: left;
+}
+
 
 .timeline {
   position: relative;
