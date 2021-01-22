@@ -79,7 +79,7 @@
   }
   
   a {
-    color: #f4f4f4;
+    color: #ffffcc;
     text-decoration: none;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
@@ -90,7 +90,7 @@
   
   a:hover,
   a.selected {
-    color: #5e5e5e;
+    color: #ffcc00;
   }
   
   h1,
@@ -196,7 +196,7 @@
   }
   
   #issues li h1 {
-    color: #f4f4f4;
+    color: #ffcc00;
     font-size: 48px;
     margin: 20px 0;
     text-shadow: #000 1px 1px 2px;
