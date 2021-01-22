@@ -10,7 +10,7 @@ header {
   justify-content: center;
   flex-wrap: wrap;
   color: white;
-  background-image: linear-gradient(to bottom left, rgba(30,19,12,1), rgba(229,229,229, .4));
+  background-image: linear-gradient(to bottom left, rgba(30,19,12,.4), rgba(229,229,229, .1));
   padding-top: 3em;
 }
 
@@ -73,6 +73,7 @@ header span {
 
  header ul li h4 {
   font-weight: 200;
+  font-size: 17px;
 }
 
 #button {
@@ -142,6 +143,8 @@ container {
   display:flex;
   margin-left: 5em;
   flex-wrap: wrap;
+  margin-top: 3em;
+  color: white;
 }
 
 #titlefirst {
@@ -179,7 +182,7 @@ li img {
   width:10%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
   header {
     display: flex;
     flex-direction: column;
@@ -206,13 +209,13 @@ li img {
   header img{
     width: 28em;
     position:absolute;
-    left: 2em;
+    left: 3em;
     top: 4em;
   }
 
   #boxOne {
     top:36%;
-    left:110%;
+    left:115%;
     height:100px;
     width:100px;
   }
@@ -237,12 +240,34 @@ li img {
 
   .topCont {
    display:flex;
-   justify-content: flex-end;
+   justify-content: center;
+   top:0%;
+   position:fixed;
   }
 
-  .topCont li a {
-    color: white;
+  #link {
+    color: #5E5E5E;
   }
+
+  .topCont li {
+    text-align: center;
+    padding: 2px;
+    margin-left: 1em;
+    background-color: #5E5E5E;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    z-index: 2;
+    border-radius: 25%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top:0;
+  }
+
+  .topcont li a {
+    color: #E2DEDE;
+  }
+
+
   body {
     background-image: linear-gradient(to bottom, rgba(30,19,12,1), rgba(229,229,229, .4));
   }
