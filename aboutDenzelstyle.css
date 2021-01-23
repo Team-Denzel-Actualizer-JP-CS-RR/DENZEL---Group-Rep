@@ -5,7 +5,7 @@
   }
 
   .topImage {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("Images/case study hero image.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("Images/Denzel.jpg");
 
  
   height: 30em;
@@ -19,7 +19,7 @@
 
 .topBack {
     background-image: linear-gradient(#000000, #434343);
-  height: 20em;
+  height: 30em;
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
@@ -33,19 +33,16 @@
 }
 
 #denzelNameText {
-    font-size: 38px;
+    font-size: 52px;
     font-weight: 700;
+    letter-spacing: 10px;
 }
 
 #denzelTagText {
     font-size: 24px;
     font-weight: 600;
+    letter-spacing: 6px;
 }
-
-#topListHead {
-    font-size: 25px;
-}
-
 
 .topText {
     display: flex;
@@ -53,34 +50,49 @@
     justify-content: center;
     align-items: center;
   color: white;
+  MARGIN-LEFT:6EM;
+}
+
+.topList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-AROUND;
 }
 
 .topList ul{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     list-style-type: none;
-    justify-content: space-around;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
     flex-wrap:wrap;
 }
-  
-.topList ul li ul {
-    display:flex;
-    flex-direction: column;
-    align-items:left;
-    justify-content: space-around;
-    color: white;
+
+.topList ul h3 {
+  font-size: 30px;
+  letter-spacing: 6px;
+}
+
+.topList ul li {
+  font-size: 20px;
+}
+
+.topList span {
+  font-size: 25px;
+  color: #C3E6FF;
 }
 
 #playlist {
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
-  align-content: flex-end;
-
+  align-content: center;
 }
 
-#playlistImage {
-  width:5em;
+#playlist svg {
+  MARGIN-top: 2em;
 }
 
   body {
@@ -107,7 +119,7 @@
   
   a:hover,
   a.selected {
-    color: #ffcc00;
+    color: #DCCBCB;
   }
   
   h1,
@@ -213,7 +225,7 @@
   }
   
   #issues li h1 {
-    color: #ffcc00;
+    color: #f4f4f4;
     font-size: 48px;
     margin: 20px 0;
     text-shadow: #000 1px 1px 2px;
@@ -269,13 +281,13 @@
   
   #next {
     right: 0;
-    background: red;
+    background: #f4f4f4;
     border-radius: 100%;
   }
   
   #prev {
     left: 0;
-    background: blue;
+    background: #f4f4f4;
     border-radius: 100%;
   }
   
