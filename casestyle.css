@@ -72,6 +72,30 @@ font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubunt
 }
 
 @media only screen and (max-width: 600px) {
+  
+  .topText span h1 {
+    font-size: 25px;
+    letter-spacing: 5px;
+  }
+  
+  .topText span h2 {
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-align: center;
+  }
+  
+  .topText span {
+    font-size: 12px;
+    font-style: oblique;
+    letter-spacing: 3px;
+    text-align: center;
+  }
+  
+  .topList h3 {
+      font-size: 15px;
+      text-align: center;
+  }
+  
   .topText {
     margin-left: 1em;
   }
@@ -86,7 +110,7 @@ font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubunt
   }
 
   .topBack {
-    height:25em;
+    height:20em;
   }
 
   .topList ul {

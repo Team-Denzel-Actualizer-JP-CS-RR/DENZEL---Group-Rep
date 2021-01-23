@@ -10,7 +10,7 @@ header {
   justify-content: center;
   flex-wrap: wrap;
   color: white;
-  background-image: linear-gradient(to bottom left, rgba(30,19,12,.6), rgba(229,229,229, .3));
+  background-image: linear-gradient(to bottom left, rgba(0,0,0,1), rgba(67,67,67, 0));
   padding-top: 3em;
 }
 
@@ -67,6 +67,7 @@ header ul li{
 header span {
   font-size: 50px;
   font-weight: 600;
+  letter-spacing: 10px;
 }
 
  header ul li h4 {
