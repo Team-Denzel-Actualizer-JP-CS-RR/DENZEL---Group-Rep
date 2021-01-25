@@ -96,7 +96,7 @@ font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubunt
   border-radius: 50px 0px 50px 0px;
   box-shadow: 0 8px 0 lightslategray;
   position: fixed;
-  top: 33em;
+  top: 38em;
 }
 
 #homeButton img {
@@ -152,7 +152,7 @@ font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubunt
     border-radius: 50px 0px 50px 0px;
     box-shadow: 0 8px 0 lightslategray;
     position: fixed;
-    top: 33em;
+    top: 31em;
   }
 
   #homeButton img {

@@ -38,7 +38,6 @@
     letter-spacing: 10px;
 }
 
-
 #homeButton {
   display: flex;
   flex-direction: row;
@@ -62,6 +61,30 @@
   top: 38em;
 }
 
+@media only screen and (max-width: 1000px){
+#homeButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 70px;
+  background: #434343;
+  border: 2px solid rgba(33, 68, 72, 0.59);
+  color: rgba(0, 0, 0, 0.55);
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: none;
+  margin-top: 4em;
+  font-size: 20px;
+  padding-left: 1em;
+  background: linear-gradient(top, #434343, #434343);
+  border-radius: 50px 0px 50px 0px;
+  box-shadow: 0 8px 0 lightslategray;
+  position: fixed;
+  top: 70em;
+}
+}
 #homeButton img {
   padding-right: 1em;
 }
