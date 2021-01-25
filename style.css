@@ -279,7 +279,7 @@ footer{
 
 
   body {
-    background-image: linear-gradient(to bottom, rgba(30,19,12,1), rgba(229,229,229, .4));
+    background-image: linear-gradient(to bottom, rgb(41, 39, 39), rgba(229,229,229, .0));
   }
   
 }

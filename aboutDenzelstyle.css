@@ -38,6 +38,34 @@
     letter-spacing: 10px;
 }
 
+
+#homeButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 50px;
+  background: #434343;
+  border: 2px solid rgba(33, 68, 72, 0.59);
+  color: rgba(0, 0, 0, 0.55);
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: none;
+  margin-top: 4em;
+  font-size: 20px;
+  padding-left: 1em;
+  background: linear-gradient(top, #434343, #434343);
+  border-radius: 50px 0px 50px 0px;
+  box-shadow: 0 8px 0 lightslategray;
+  position: fixed;
+  top: 38em;
+}
+
+#homeButton img {
+  padding-right: 1em;
+}
+
 #denzelTagText {
     font-size: 24px;
     font-weight: 600;
@@ -53,11 +81,27 @@
   MARGIN-LEFT:6EM;
 }
 
+#feedback {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 5em;
+  margin-top: 6em;
+  flex-wrap: wrap;
+  box-shadow: none;
+}
+
+#feedback img {
+  padding-top: 4em;
+}
+
 .topList {
   display: flex;
   flex-direction: row;
   justify-content: space-AROUND;
 }
+
 
 .topList ul{
     display: flex;
@@ -102,14 +146,10 @@
     font-size: 14px;
   }
 
-  IMG:hover {
-    box-shadow: rgba(0, 0, 0, 0.40) 0px 54px 55px, rgba(0, 0, 0, 0.40) 0px -12px 30px, rgba(0, 0, 0, 0.40) 0px 4px 6px, rgba(0, 0, 0, 0.40) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  
-  }
+ 
 
-  SVG:HOVER {
+  #playlist img:HOVER {
     box-shadow: rgba(0, 0, 0, 0.40) 0px 54px 55px, rgba(0, 0, 0, 0.40) 0px -12px 30px, rgba(0, 0, 0, 0.40) 0px 4px 6px, rgba(0, 0, 0, 0.40) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
   }
   
   a {
@@ -153,7 +193,7 @@
   
   #timeline {
     width: 970px;
-    height: 1500px;
+    height: 500px;
     overflow: hidden;
     margin: 100px auto;
     position: relative;
@@ -249,8 +289,8 @@
   
   #grad_left,
   #grad_right {
-    width: 100px;
-    height: 350px;
+    width: 50px;
+    height: 50px;
     position: absolute;
     top: 0;
   }
