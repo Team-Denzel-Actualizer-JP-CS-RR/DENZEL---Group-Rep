@@ -19,4 +19,8 @@ Link to Miro Page:
 1200px for large devices like desktops
 2560px for extra large devices like large desktops
 
+
+///OPTIMAL VIEWPORT(s) CURRENTLY SUPPORTED::///
+
+
 update v.1.2 01-20-20
